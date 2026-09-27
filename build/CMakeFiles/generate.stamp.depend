@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+C:/Users/Dweeb/documents/tetris/CMakeLists.txt
+C:/Users/Dweeb/documents/tetris/build/CMakeFiles/4.4.2/CMakeCCompiler.cmake
+C:/Users/Dweeb/documents/tetris/build/CMakeFiles/4.4.2/CMakeRCCompiler.cmake
+C:/Users/Dweeb/documents/tetris/build/CMakeFiles/4.4.2/CMakeSystem.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeCInformation.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Compiler/MSVC-C.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Compiler/MSVC.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Linker/MSVC-C.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Linker/MSVC.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/Windows.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake

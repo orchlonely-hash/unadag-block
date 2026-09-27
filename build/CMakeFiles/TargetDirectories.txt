@@ -1,0 +1,3 @@
+C:/Users/Dweeb/documents/tetris/build/CMakeFiles/tetris.dir
+C:/Users/Dweeb/documents/tetris/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dweeb/documents/tetris/build/CMakeFiles/ZERO_CHECK.dir

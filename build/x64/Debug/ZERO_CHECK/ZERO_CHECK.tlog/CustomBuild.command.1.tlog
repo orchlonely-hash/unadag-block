@@ -1,0 +1,10 @@
+^C:\USERS\DWEEB\DOCUMENTS\TETRIS\BUILD\CMAKEFILES\CBF4ED5E1986F66ECB99F66FC45D3332\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-4.4.2-windows-x86_64\bin\cmake.exe -SC:/Users/Dweeb/documents/tetris -BC:/Users/Dweeb/documents/tetris/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Dweeb/documents/tetris/build/tetris.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
