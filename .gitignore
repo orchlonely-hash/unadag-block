@@ -1,0 +1,19 @@
+# Build directories
+build/
+bin/
+out/
+
+# IDE / Editor folders
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Executables & object files
+*.exe
+*.obj
+*.o
+*.lib
+*.a
