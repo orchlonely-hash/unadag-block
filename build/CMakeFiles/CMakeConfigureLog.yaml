@@ -840,3 +840,620 @@ events:
       Microsoft (R) Incremental Linker Version 14.44.35222.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "vendor/raylib/CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/"
+    found: "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Dweeb\\scoop\\shims"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Programs\\Warp\\bin"
+        - "C:\\Users\\Dweeb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\cmake-4.4.2-windows-x86_64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tetris"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/cmake-4.4.2-windows-x86_64"
+        - "C:/Program Files (x86)/tetris"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "vendor/raylib/CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.40+3e7442088 for .NET Framework
+      Build started 9/29/2026 1:23:28 AM.
+      
+      Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\4.4.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.03
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Dweeb/documents/tetris/build/CMakeFiles/4.4.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "vendor/raylib/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/Dweeb/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/"
+      - "C:/Users/Dweeb/scoop/shims/"
+      - "C:/Users/Dweeb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Warp/bin/"
+      - "C:/Users/Dweeb/AppData/Roaming/npm/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/"
+      - "C:/cmake-4.4.2-windows-x86_64/sbin/"
+      - "C:/cmake-4.4.2-windows-x86_64/"
+      - "C:/Program Files (x86)/tetris/bin/"
+      - "C:/Program Files (x86)/tetris/sbin/"
+      - "C:/Program Files (x86)/tetris/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Python314/Scripts/lld-link.com"
+      - "C:/Python314/Scripts/lld-link.exe"
+      - "C:/Python314/Scripts/lld-link"
+      - "C:/Python314/lld-link.com"
+      - "C:/Python314/lld-link.exe"
+      - "C:/Python314/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Users/Dweeb/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/Dweeb/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/Dweeb/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.com"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link.exe"
+      - "C:/Program Files/MySQL/MySQL Shell 8.0/bin/lld-link"
+      - "C:/Users/Dweeb/scoop/shims/lld-link.com"
+      - "C:/Users/Dweeb/scoop/shims/lld-link.exe"
+      - "C:/Users/Dweeb/scoop/shims/lld-link"
+      - "C:/Users/Dweeb/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Dweeb/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Dweeb/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Warp/bin/lld-link.com"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Warp/bin/lld-link.exe"
+      - "C:/Users/Dweeb/AppData/Local/Programs/Warp/bin/lld-link"
+      - "C:/Users/Dweeb/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Dweeb/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Dweeb/AppData/Roaming/npm/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/lld-link.com"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/lld-link.exe"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/lld-link.com"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/lld-link.exe"
+      - "C:/cmake-4.4.2-windows-x86_64/bin/lld-link"
+      - "C:/cmake-4.4.2-windows-x86_64/sbin/lld-link.com"
+      - "C:/cmake-4.4.2-windows-x86_64/sbin/lld-link.exe"
+      - "C:/cmake-4.4.2-windows-x86_64/sbin/lld-link"
+      - "C:/cmake-4.4.2-windows-x86_64/lld-link.com"
+      - "C:/cmake-4.4.2-windows-x86_64/lld-link.exe"
+      - "C:/cmake-4.4.2-windows-x86_64/lld-link"
+      - "C:/Program Files (x86)/tetris/bin/lld-link.com"
+      - "C:/Program Files (x86)/tetris/bin/lld-link.exe"
+      - "C:/Program Files (x86)/tetris/bin/lld-link"
+      - "C:/Program Files (x86)/tetris/sbin/lld-link.com"
+      - "C:/Program Files (x86)/tetris/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/tetris/sbin/lld-link"
+      - "C:/Program Files (x86)/tetris/lld-link.com"
+      - "C:/Program Files (x86)/tetris/lld-link.exe"
+      - "C:/Program Files (x86)/tetris/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\"
+        - "C:\\Users\\Dweeb\\scoop\\shims"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Programs\\Warp\\bin"
+        - "C:\\Users\\Dweeb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Dweeb\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\cmake-4.4.2-windows-x86_64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tetris"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/cmake-4.4.2-windows-x86_64"
+        - "C:/Program Files (x86)/tetris"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "vendor/raylib/CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g"
+      binary: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3237c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 9/29/2026 1:23:29 AM.
+        
+        Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykh81g\\cmTC_3237c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykh81g\\Debug\\".
+          Creating directory "cmTC_3237c.dir\\Debug\\cmTC_3237c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3237c.dir\\Debug\\cmTC_3237c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3237c.dir\\Debug\\cmTC_3237c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_3237c.dir\\Debug\\\\" /Fd"cmTC_3237c.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\cmake-4.4.2-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_3237c.dir\\Debug\\\\" /Fd"cmTC_3237c.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\cmake-4.4.2-windows-x86_64\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykh81g\\Debug\\cmTC_3237c.exe" /INCREMENTAL /ILK:"cmTC_3237c.dir\\Debug\\cmTC_3237c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g/Debug/cmTC_3237c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g/Debug/cmTC_3237c.lib" /MACHINE:X64  /machine:x64 cmTC_3237c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3237c.vcxproj -> C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykh81g\\Debug\\cmTC_3237c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3237c.dir\\Debug\\cmTC_3237c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3237c.dir\\Debug\\cmTC_3237c.tlog\\cmTC_3237c.lastbuildstate".
+        Done Building Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykh81g\\cmTC_3237c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "vendor/raylib/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ykh81g\\Debug\\cmTC_3237c.exe" /INCREMENTAL /ILK:"cmTC_3237c.dir\\Debug\\cmTC_3237c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g/Debug/cmTC_3237c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-ykh81g/Debug/cmTC_3237c.lib" /MACHINE:X64  /machine:x64 cmTC_3237c.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "vendor/raylib/CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35222.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "vendor/raylib/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "vendor/raylib/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "vendor/raylib/CMakeLists.txt:26 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-icb1tp"
+      binary: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-icb1tp"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-icb1tp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03b32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 9/29/2026 1:23:30 AM.
+        
+        Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\cmTC_03b32.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\Debug\\".
+          Creating directory "cmTC_03b32.dir\\Debug\\cmTC_03b32.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_03b32.dir\\Debug\\cmTC_03b32.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_03b32.dir\\Debug\\cmTC_03b32.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c17 /Fo"cmTC_03b32.dir\\Debug\\\\" /Fd"cmTC_03b32.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /std:c17 /Fo"cmTC_03b32.dir\\Debug\\\\" /Fd"cmTC_03b32.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\cmTC_03b32.vcxproj]
+        Done Building Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\cmTC_03b32.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\cmTC_03b32.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-icb1tp\\cmTC_03b32.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "vendor/raylib/src/external/glfw/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-o5veka"
+      binary: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-o5veka"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake;C:/Users/Dweeb/documents/tetris/vendor/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-o5veka'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35c40.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 9/29/2026 1:23:31 AM.
+        
+        Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\cmTC_35c40.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\Debug\\".
+          Creating directory "cmTC_35c40.dir\\Debug\\cmTC_35c40.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35c40.dir\\Debug\\cmTC_35c40.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_35c40.dir\\Debug\\cmTC_35c40.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_35c40.dir\\Debug\\\\" /Fd"cmTC_35c40.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_35c40.dir\\Debug\\\\" /Fd"cmTC_35c40.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\src.c"
+          src.c
+        C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\cmTC_35c40.vcxproj]
+        Done Building Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\cmTC_35c40.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\cmTC_35c40.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o5veka\\cmTC_35c40.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "vendor/raylib/src/external/glfw/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-z3175s"
+      binary: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-z3175s"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake;C:/Users/Dweeb/documents/tetris/vendor/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-z3175s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f4e2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 9/29/2026 1:23:31 AM.
+        
+        Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\cmTC_f4e2d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\Debug\\".
+          Creating directory "cmTC_f4e2d.dir\\Debug\\cmTC_f4e2d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f4e2d.dir\\Debug\\cmTC_f4e2d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f4e2d.dir\\Debug\\cmTC_f4e2d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f4e2d.dir\\Debug\\\\" /Fd"cmTC_f4e2d.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f4e2d.dir\\Debug\\\\" /Fd"cmTC_f4e2d.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\Debug\\cmTC_f4e2d.exe" /INCREMENTAL /ILK:"cmTC_f4e2d.dir\\Debug\\cmTC_f4e2d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-z3175s/Debug/cmTC_f4e2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-z3175s/Debug/cmTC_f4e2d.lib" /MACHINE:X64  /machine:x64 cmTC_f4e2d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\cmTC_f4e2d.vcxproj]
+        Done Building Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\cmTC_f4e2d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\cmTC_f4e2d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z3175s\\cmTC_f4e2d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "vendor/raylib/src/external/glfw/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-9txm1f"
+      binary: "C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-9txm1f"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake;C:/Users/Dweeb/documents/tetris/vendor/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-9txm1f'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_088eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.40+3e7442088 for .NET Framework
+        Build started 9/29/2026 1:23:32 AM.
+        
+        Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\cmTC_088eb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\Debug\\".
+          Creating directory "cmTC_088eb.dir\\Debug\\cmTC_088eb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_088eb.dir\\Debug\\cmTC_088eb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_088eb.dir\\Debug\\cmTC_088eb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_088eb.dir\\Debug\\\\" /Fd"cmTC_088eb.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_088eb.dir\\Debug\\\\" /Fd"cmTC_088eb.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\Debug\\cmTC_088eb.exe" /INCREMENTAL /ILK:"cmTC_088eb.dir\\Debug\\cmTC_088eb.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-9txm1f/Debug/cmTC_088eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Dweeb/documents/tetris/build/CMakeFiles/CMakeScratch/TryCompile-9txm1f/Debug/cmTC_088eb.lib" /MACHINE:X64  /machine:x64 cmTC_088eb.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\cmTC_088eb.vcxproj]
+        Done Building Project "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\cmTC_088eb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\cmTC_088eb.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Dweeb\\documents\\tetris\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9txm1f\\cmTC_088eb.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 1
+...

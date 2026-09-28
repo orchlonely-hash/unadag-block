@@ -1,7 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/Dweeb/documents/tetris/build/cmake_install.cmake"
+		"C:/Users/Dweeb/documents/tetris/build/cmake_install.cmake",
+		"C:/Users/Dweeb/documents/tetris/build/vendor/raylib/cmake_install.cmake",
+		"C:/Users/Dweeb/documents/tetris/build/vendor/raylib/raylib/cmake_install.cmake",
+		"C:/Users/Dweeb/documents/tetris/build/vendor/raylib/raylib/external/glfw/cmake_install.cmake",
+		"C:/Users/Dweeb/documents/tetris/build/vendor/raylib/raylib/external/glfw/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

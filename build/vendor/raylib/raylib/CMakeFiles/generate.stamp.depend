@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/CompileDefinitions.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/GlfwImport.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/InstallConfigurations.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/JoinPaths.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/LibraryConfigurations.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/LibraryPathToLinkerFlags.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/PackConfigurations.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/PopulateConfigVariablesLocally.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/raylib-config-version.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/cmake/raylib-config.cmake
+C:/Users/Dweeb/documents/tetris/vendor/raylib/raylib.pc.in
+C:/Users/Dweeb/documents/tetris/vendor/raylib/src/CMakeLists.txt
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CMakePushCheckState.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CPack.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CPackComponent.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindOpenGL.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/cmake-4.4.2-windows-x86_64/share/cmake-4.4/Templates/CPackConfig.cmake.in
